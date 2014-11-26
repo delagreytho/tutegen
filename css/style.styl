@@ -1,0 +1,86 @@
+@import 'nib'
+
+body
+	background black
+	font-size 16px
+	color white
+	
+.logo
+	width 3em
+	display inline-block 
+	float left
+	img
+		width 100%
+		
+header 
+	text-align center
+	border-bottom 1px solid white
+	overflow hidden
+	margin 0 1em
+		
+h1
+	font-size 1.2em
+	margin 1.3em 0 0 0
+	display inline-block
+	
+nav
+	//border 1px solid white
+	margin 0.4em 1em 
+	padding 0.5em
+	ul
+		li
+			display inline-block
+			margin-right 5em
+			a
+				//background azure
+				//border-radius 5px
+				color white
+				padding 0 1em 0.5em 1em
+				text-decoration none
+				&:hover
+					
+					border-bottom 2px solid #00FA9A
+					
+
+.portada
+	//border 1px solid white
+	text-align center
+	padding 1em
+	margin 0.5em 1em
+	.foto_art
+		//border 1px solid white
+		width 50%
+		margin 0 auto
+		img
+			width 100%
+			
+.equipos
+	border 1px solid white
+	margin 0.5em 1em
+	padding 0 1em
+	.disponibles,.fichados
+		border 1px solid white
+		background gray
+		width 30%
+		margin 0.5em 0 1em 3em
+		
+		ul
+			list-style-type none
+			padding 0 1em
+			li
+				border-bottom 1px solid black
+				margin-bottom 1em
+	.fichados
+		li:hover
+			background #00FA9A
+			color black
+			cursor pointer
+			border-bottom 1px solid white
+	
+footer
+	text-align center
+	border-radius 5px
+	background #00FA9A
+	color black
+	margin 1em
+	padding 0.3em 0
